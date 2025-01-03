@@ -1,0 +1,36 @@
+/* footer.css */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.content-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box {
+  flex: 1 1 300px; /* Ensure minimum width of 300px */
+  margin: 10px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.credit {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .box {
+    flex: 1 1 100%; /* Make boxes full width on smaller screens */
+  }
+}
